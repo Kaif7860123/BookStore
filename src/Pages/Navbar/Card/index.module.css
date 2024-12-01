@@ -1,0 +1,63 @@
+.container{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px; 
+}
+.cardCont{
+    width: 93%;
+    margin: auto;
+   
+    margin-top: 15px;
+}
+ 
+.cardImg img{
+    width: 80%;
+}
+.cardFooter{
+    width: 80%;
+    border: 1px solid rgb(242, 238, 238);
+}
+.cardHead{
+    display: flex;
+    gap: 10px;
+    margin: 5px 0px;
+
+}
+.cardText {
+   
+    width: 90%;
+    margin: auto;
+}
+.cardText h3{
+    color: rgb(89, 85, 85);
+}
+.cardText  .category{
+    background-color: rgb(255, 14, 231);
+    padding: 5px 8px;
+    border-radius: 8px;
+    color: white;
+}
+.endElem{
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.buy{
+    background-color: rgb(241, 195, 203);
+    padding: 5px 8px;
+    border-radius: 8px;
+    color: white;
+}
+.moneyText{
+    padding: 3px 8px;
+    border-radius: 8px;
+    border: 1px solid rgb(206, 203, 203);
+}
+.buy:hover{
+    background-color: rgb(255, 14, 231);
+transform: scale(1.1);
+transition-duration: 0.5s;
+
+}

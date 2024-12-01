@@ -1,0 +1,70 @@
+.bodyCont{
+    width: 90%;
+    margin: auto;
+}
+.mainCont{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+.welcome_section{
+    width: 50%;
+}
+.welcome_section h1{
+    font-size: 40px;
+    color: rgb(53, 50, 50);
+}
+.welcome_section p{
+    margin-top: 22px;
+    text-align: justify;
+    font-size: 20px;
+    color:rgb(89, 85, 85) ;
+    
+}
+.emailInput{
+    border: 1px solid gray;
+    width: 90%;
+    padding: 6px;
+    margin-top: 25px;
+}
+.emailInput input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: rgb(89, 85, 85);
+}
+.getBtn{
+    margin-top: 40px;   
+}
+.newColor{
+    color: rgb(234, 17, 219);
+}
+.getBtn button{
+    padding: 8px 12px;
+    background-color: rgb(234, 17, 219);
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    outline: none;
+}
+.img_section{
+    width: 50%;
+}
+.img_section img{
+    width: 60%;
+    margin-left: 100px;
+    background-color: white;
+}
+ 
+.text h2{
+    color: rgb(53, 50, 50);
+    margin-top: 18px;
+}
+.text p{
+    font-size: 20px;
+    color:rgb(89, 85, 85) ;
+}
+.email{
+    font-size: 20px;
+}

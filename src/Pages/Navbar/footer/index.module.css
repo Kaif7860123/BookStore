@@ -1,0 +1,34 @@
+.container{
+    width: 40%;
+    margin: auto;
+}
+.footerList ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin-top: 50px;
+}
+.footerList ul li{
+    font-size: 18px;
+    color: rgb(89, 85, 85);
+}
+.footerList{
+  width: 60%;
+  margin: auto;
+}
+.icons{
+    width: 20%;
+    display: flex;
+    margin: auto;
+    gap: 15px;   
+}
+.icons span{
+    margin-top: 30px;
+}
+.container p{
+    font-size: 18px;
+    color: rgb(89, 85, 85);
+     width: 90%;
+     margin: auto;
+     margin-top: 25px;
+}
